@@ -71,6 +71,7 @@ async function processText(sentence) {
     return { 
         videos: processedData,
         text: processedText,
+        language: original_language
     }
 }
 
